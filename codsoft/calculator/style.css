@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8fbc8f7d;
+}
+
+.cal {
+    background-color: #181515cf;
+    height: 45vh;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 11px 19px 3px rgba(0 , 0 , 0 , 0.8);
+}
+
+.input input {
+    padding: 25px 9px;
+    font-size: 1.5rem;
+    margin: 20px 14px;
+}
+
+button {
+    font-weight: 900;
+    padding: 16px 29px;
+    margin: 6px 7px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+#sub{
+    padding: 15px 32px;
+}
+.row{
+    margin-top: 10px;
+}
